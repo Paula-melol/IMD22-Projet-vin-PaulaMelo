@@ -9,23 +9,26 @@ a {
 }
 
 @font-face {
-  font-family: "switzer Light";
-  src: url("/font/switzer-Light.woff2") format("woff");
+  font-family: "switzer";
+  font-weight: 300;
+  src: url("../font/switzer-Light.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "switzer Medium";
-  url: ("/font/switzer-Medium.woff2") format("woff");
+  font-family: "switzer";
+  font-weight: 500;
+  src: url("../font/switzer-Medium.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "switzer Regular";
-  src: url("/font/switzer-Regular.woff2") format("woff");
-
-  @font-face {
-    font-family: "switzer Semibold";
-    src: url("/font/switzer-Semibold.woff2") format("woff");
-  }
+  font-family: "switzer";
+  font-weight: 400;
+  src: url("../font/switzer-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "switzer";
+  font-weight: 600;
+  src: url("../font/switzer-Semibold.woff2") format("woff");
 }
 @font-face {
   font-family: "Marker Mark";
@@ -52,7 +55,7 @@ video {
 .logo {
   align-self: stretch;
   color: var(--Noir, #000);
-  font-family: Switzer Medium;
+  font-family: Switzer;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
