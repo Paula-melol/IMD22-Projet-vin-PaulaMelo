@@ -24,3 +24,24 @@ video {
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
 }
+
+.logo {
+  align-self: stretch;
+  color: var(--Noir, #000);
+  font-family: Switzer;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.navigation {
+  display: flex;
+  width: 1116px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.info-navigation {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
