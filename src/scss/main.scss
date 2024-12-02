@@ -8,9 +8,33 @@ a {
   color: inherit;
 }
 
+@font-face {
+  font-family: "switzer Light";
+  src: url("/font/switzer-Light.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "switzer Medium";
+  url: ("/font/switzer-Medium.woff2") format("woff");
+}
+
+@font-face {
+  font-family: "switzer Regular";
+  src: url("/font/switzer-Regular.woff2") format("woff");
+
+  @font-face {
+    font-family: "switzer Semibold";
+    src: url("/font/switzer-Semibold.woff2") format("woff");
+  }
+}
+@font-face {
+  font-family: "Marker Mark";
+  src: url("/font/MarkerMark-Regular.woff") format("woff");
+}
 img,
 video {
   display: block;
+  max-width: 100%;
 }
 @import "bootstrap/scss/bootstrap-grid";
 .row + .row {
@@ -28,7 +52,7 @@ video {
 .logo {
   align-self: stretch;
   color: var(--Noir, #000);
-  font-family: Switzer;
+  font-family: Switzer Medium;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -43,10 +67,11 @@ video {
 .info-navigation {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 120px;
+  font-family: Switzer;
 }
 
-.slogan1 {
+.slogan-1 {
   width: 736px;
   color: var(--Noir, #000);
   font-family: Switzer;
