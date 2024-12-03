@@ -32,7 +32,7 @@ a {
 }
 @font-face {
   font-family: "Marker Mark";
-  src: url("/font/MarkerMark-Regular.woff") format("woff");
+  src: url("../font/MarkerMark-Regular.woff") format("woff2");
 }
 img,
 video {
@@ -112,7 +112,7 @@ video {
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
-  line-height: 30px; /* 93.75% */
+  line-height: 30px;
   text-transform: uppercase;
 }
 .nom-vin-rouge {
@@ -124,5 +124,56 @@ video {
   line-height: 85.947%;
   width: 261px;
   height: 46px;
+  flex-shrink: 0;
+}
+
+.bouton-redwine-card {
+  display: flex;
+  width: 214px;
+  padding: 13px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 0.5px solid var(--Noir, #000);
+  color: var(--Noir, #000);
+  font-family: Switzer;
+  font-size: 20px;
+  font-weight: 500;
+}
+.nom-vigneronne {
+  color: var(--Noir, #000);
+  font-family: "Marker Mark";
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+  width: 438px;
+}
+.sous-titre-vigneronne {
+  color: var(--Noir, #000);
+  font-family: "Marker Mark";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 85.947%;
+  width: 597px;
+}
+.texte-vigneronne {
+  color: var(--Noir, #000);
+  font-family: Switzer;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.bouton-vigneronne {
+  border: 0.5px solid var(--Noir, #000);
+  display: flex;
+  width: 166px;
+  height: 53px;
+  padding: 13px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
   flex-shrink: 0;
 }
