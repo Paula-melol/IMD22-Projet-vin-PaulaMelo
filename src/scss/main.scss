@@ -51,27 +51,77 @@ video {
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
 }
-
-.logo {
-  align-self: stretch;
-  color: var(--Noir, #000);
-  font-family: Switzer;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-}
-.navigation {
+.menu {
   display: flex;
   width: 1116px;
   justify-content: space-between;
   align-items: flex-start;
 }
-.info-navigation {
+.logo {
+  display: flex;
+  width: 183px;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  color: var(--Noir, #000);
+  font-family: Switzer;
+}
+
+.main-logo {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  align-self: stretch;
+}
+.sous-logo {
+  text-align: center;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.navigation {
   display: flex;
   align-items: center;
-  gap: 120px;
+  gap: 102px;
+}
+.main {
+  display: flex;
+  align-items: center;
+  gap: 102px;
+  color: var(--Noir, #000);
   font-family: Switzer;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.tools {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.tools-langue {
+  color: var(--Gris-fonc, rgba(0, 0, 0, 0.7));
+  font-family: Switzer;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.burger {
+  height: 10px;
+}
+.ligne {
+  width: 35px;
+  border: 1px solid black;
+}
+.bas {
+  position: relative;
+  top: 5px;
 }
 
 .slogan {
