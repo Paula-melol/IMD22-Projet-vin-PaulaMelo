@@ -72,6 +72,7 @@ video {
   font-weight: 500;
   align-self: stretch;
 }
+
 .sous-logo {
   text-align: center;
   font-size: 9px;
@@ -294,7 +295,8 @@ video {
   font-weight: 500;
   line-height: normal;
 }
-.horaire {
+.horaire,
+.adresse {
   color: var(--Noir, #000);
   font-family: Switzer;
   font-size: 14px;
