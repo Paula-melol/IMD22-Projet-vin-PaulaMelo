@@ -76,7 +76,6 @@ video {
 .sous-logo {
   text-align: center;
   font-size: 9px;
-  font-style: normal;
   font-weight: 400;
   letter-spacing: 1.8px;
   text-transform: uppercase;
@@ -256,18 +255,14 @@ video {
   color: var(--Noir, #000);
   font-family: Switzer;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
   width: 261.26px;
 }
 .adresse-mail {
   color: var(--Gris-clair, rgba(70, 70, 70, 0.64));
   font-family: Switzer;
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
   width: 166.166px;
 }
 .langues {
@@ -276,64 +271,54 @@ video {
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
-  line-height: normal;
 }
 
 .langue-fr {
   color: var(--Noir, #000);
   font-family: Switzer;
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
 }
 .langue-option {
   color: var(--Gris-clair, rgba(70, 70, 70, 0.64));
   font-family: Switzer;
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
 }
 .horaire,
 .adresse {
   color: var(--Noir, #000);
   font-family: Switzer;
   font-size: 14px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
 }
 .jours {
   color: var(--Noir, #000);
   font-family: Switzer;
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
 }
 .rue {
   color: var(--Noir, #000);
   font-family: Switzer;
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
 }
+
 .cookies,
 .condition {
   color: var(--Noir, #000);
   text-align: center;
   font-family: Switzer;
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
   text-decoration-line: underline;
   text-decoration-style: solid;
-  text-decoration-skip-ink: none;
-  text-decoration-thickness: auto;
-  text-underline-offset: auto;
   text-underline-position: from-font;
   width: 206.206px;
+}
+.reseau {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
 }
