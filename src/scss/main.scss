@@ -43,7 +43,6 @@ video {
 .row + .row {
   margin-top: 16px;
 }
-
 .row > .col,
 .row > [class^="col-"] {
   padding-top: 12px;
@@ -102,15 +101,13 @@ video {
   display: flex;
   align-items: center;
   gap: 24px;
+  color: var(--Gris-fonc, rgba(0, 0, 0, 0.7));
 }
 
 .tools-langue {
-  color: var(--Gris-fonc, rgba(0, 0, 0, 0.7));
   font-family: Switzer;
   font-size: 15px;
-  font-style: normal;
   font-weight: 400;
-  line-height: normal;
 }
 .burger {
   height: 10px;
