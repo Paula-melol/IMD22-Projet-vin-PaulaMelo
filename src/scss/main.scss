@@ -364,3 +364,28 @@ video {
   font-size: 20px;
   font-weight: 500;
 }
+.titre-call-to-action {
+  color: var(--Noir, #000);
+  font-family: Switzer;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.call-to-action-sous-titre {
+  color: var(--Noir, #000);
+  text-align: center;
+  font-family: "Marker Mark";
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 60px;
+}
+.call-to-action-nom-vin {
+  color: var(--Noir, #000);
+  text-align: center;
+  font-family: Switzer;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
