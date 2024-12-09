@@ -44,14 +44,6 @@ video {
   margin-top: 16px;
 }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
-}
-
 .menu {
   display: flex;
   width: 1116px;
@@ -257,6 +249,14 @@ video {
   font-weight: 500;
   line-height: normal;
 }
+
+.atelier {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  justify-content: center;
+}
 .newsletter {
   color: var(--Noir, #000);
   font-family: Switzer;
@@ -394,4 +394,17 @@ video {
   font-size: 20px;
   font-weight: 400;
   text-transform: uppercase;
+}
+.images-vin {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  justify-content: end;
+  color: var(--Noir, #000);
+  font-family: Switzer;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
