@@ -43,6 +43,7 @@ video {
 .row + .row {
   margin-top: 16px;
 }
+
 .row > .col,
 .row > [class^="col-"] {
   padding-top: 12px;
@@ -50,6 +51,7 @@ video {
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
 }
+
 .menu {
   display: flex;
   width: 1116px;
@@ -173,7 +175,11 @@ video {
   height: 46px;
   flex-shrink: 0;
 }
-
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
 .bouton-redwine-card {
   display: flex;
   width: 214px;
