@@ -43,6 +43,7 @@ video {
 .row + .row {
   margin-top: 16px;
 }
+
 body {
   background: var(--Gris-fond, #e8e8e8);
 }
@@ -174,6 +175,12 @@ body {
   flex-direction: column;
   justify-content: end;
 }
+.spacer {
+  height: 170px;
+}
+.spacer-2 {
+  height: 100px;
+}
 .bouton-redwine-card {
   display: flex;
   width: 214px;
@@ -194,7 +201,9 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 60px;
-  width: 438px;
+  margin-bottom: 59px;
+  margin-left: -80px;
+  margin-top: -20px;
 }
 .sous-titre-vigneronne {
   color: var(--Noir, #000);
@@ -203,7 +212,8 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 85.947%;
-  width: 597px;
+  margin-bottom: 40px;
+  margin-left: -50px;
 }
 .texte-vigneronne {
   color: var(--Noir, #000);
@@ -212,6 +222,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  margin-bottom: 34px;
 }
 .bouton-vigneronne,
 .bouton-atelier {
@@ -225,11 +236,7 @@ body {
   gap: 10px;
   flex-shrink: 0;
 }
-.vigneronne {
-  display: flex;
-  width: 356px;
-  gap: 300px;
-}
+
 .titre-visite {
   align-self: stretch;
   color: var(--Noir, #000);
@@ -413,4 +420,16 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+.burger-lien {
+  color: var(--Noir, #000);
+  font-family: Switzer;
+  font-size: 60px;
+  font-weight: 500;
+}
+.burger-hover {
+  color: var(--Noir, #000);
+  font-family: Switzer;
+  font-size: 60px;
+  font-weight: 200;
 }
