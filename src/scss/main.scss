@@ -43,7 +43,9 @@ video {
 .row + .row {
   margin-top: 16px;
 }
-
+body {
+  background: var(--Gris-fond, #e8e8e8);
+}
 .menu {
   display: flex;
   width: 1116px;
@@ -223,7 +225,11 @@ video {
   gap: 10px;
   flex-shrink: 0;
 }
-
+.vigneronne {
+  display: flex;
+  width: 356px;
+  gap: 300px;
+}
 .titre-visite {
   align-self: stretch;
   color: var(--Noir, #000);
