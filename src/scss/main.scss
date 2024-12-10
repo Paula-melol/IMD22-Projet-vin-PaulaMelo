@@ -118,26 +118,23 @@ body {
   top: 5px;
 }
 
-.slogan {
-  width: 736px;
+.title-slogan {
   color: var(--Noir, #000);
   font-family: Switzer;
   font-size: 59px;
-  font-style: normal;
   font-weight: 500;
-  line-height: 45px;
 }
 .subtitle {
   color: var(--Noir, #000);
   text-align: right;
   font-family: "Marker Mark";
   font-size: 48px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 40px;
-  text-transform: lowercase;
+  margin-top: -30px;
 }
-
+.slogan {
+  margin-bottom: -600px;
+}
 .nom-vin {
   color: var(--Noir, #000);
   text-align: center;
@@ -163,24 +160,17 @@ body {
   color: var(--Noir, #000);
   font-family: "Marker Mark";
   font-size: 64px;
-  font-style: normal;
   font-weight: 400;
   line-height: 85.947%;
   width: 261px;
   height: 46px;
-  flex-shrink: 0;
 }
 .bottom {
   display: flex;
   flex-direction: column;
   justify-content: end;
 }
-.spacer {
-  height: 170px;
-}
-.spacer-2 {
-  height: 100px;
-}
+
 .bouton-redwine-card {
   display: flex;
   width: 214px;
@@ -349,6 +339,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 60px;
+  margin-left: -100px;
 }
 .titre-pinot {
   color: var(--Noir, #000);
@@ -359,6 +350,7 @@ body {
   line-height: normal;
   text-transform: uppercase;
 }
+
 .bouton-destiny {
   display: flex;
   height: 53px;
@@ -426,10 +418,21 @@ body {
   font-family: Switzer;
   font-size: 60px;
   font-weight: 500;
+  text-transform: uppercase;
 }
 .burger-hover {
   color: var(--Noir, #000);
   font-family: Switzer;
   font-size: 60px;
   font-weight: 200;
+  text-transform: uppercase;
+}
+.spacer-footer {
+  height: 60px;
+}
+.spacer {
+  height: 170px;
+}
+.spacer-2 {
+  height: 100px;
 }
