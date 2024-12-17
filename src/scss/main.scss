@@ -305,6 +305,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   width: 261.26px;
+  margin-bottom: 30px;
 }
 .adresse-mail {
   color: var(--Gris-clair, rgba(70, 70, 70, 0.64));
@@ -313,12 +314,19 @@ body {
   font-weight: 500;
   width: 166.166px;
 }
+.trait {
+  width: 261px;
+  height: 1px;
+  opacity: 60%;
+  background-color: #000;
+}
 .langues {
   color: var(--Noir, #000);
   font-family: Switzer;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
+  margin-bottom: 30px;
 }
 
 .langue-fr {
@@ -339,6 +347,7 @@ body {
   font-family: Switzer;
   font-size: 14px;
   font-weight: 600;
+  margin-bottom: 30px;
 }
 .jours {
   color: var(--Noir, #000);
