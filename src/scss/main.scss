@@ -136,6 +136,7 @@ body {
 .slogan {
   margin-bottom: -600px;
   position: relative;
+  margin-top: 40px;
 }
 .nom-vin {
   color: var(--Noir, #000);
@@ -405,7 +406,7 @@ body {
 .bouton-panier {
   display: flex;
   height: 53px;
-  padding: 13px 66px;
+  padding: 13px 20px;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -488,6 +489,8 @@ body {
 .spacer-2 {
   height: 100px;
 }
-.img-vigneronne:hover {
-  image-rendering: url(../img/img-vigneronne-couleur.png);
+
+.redwine-info {
+  margin-left: -130px;
+  margin-top: 20px;
 }
