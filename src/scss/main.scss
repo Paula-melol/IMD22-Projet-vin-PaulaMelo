@@ -488,9 +488,6 @@ body {
 .spacer-2 {
   height: 100px;
 }
-.call-to-action-img {
-  transition: transform 0.5s;
-}
-.call-to-action-img:hover {
-  transform: scale(1.1);
+.img-vigneronne:hover {
+  image-rendering: url(../img/img-vigneronne-couleur.png);
 }
